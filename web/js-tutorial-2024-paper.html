@@ -16,38 +16,58 @@
         console.log("x:", x);  // Output x
         console.log("y:", y);  // Output mutated 
     </script>
+    <script>
+        let a = 15;
+        let result = "The number is: " + a;  // Coerce a into a string and concatenate
+        console.log(result);
+
+        console.log("100 % 9:", 100 % 9);  // Output the remainder of 100 divided by 9
+
+
+        var language = "JavaScript";
+
+        var wordToFind = "Script";
+
+        let index = language.indexOf(wordToFind);  // Find the index of the word
+
+        var subStr = language.substring(index, index + wordToFind.length);  // Extract the first 4 characters
+
+        console.log(subStr);
+
+        var phrase = "webDevelopment";
+
+        let upper = phrase.toUpperCase()
+
+        console.log(upper);  // Convert to uppercase
+
+        console.log(phrase.toLowerCase());  // Convert to lowercase
+
+        console.log(phrase)
+
+
+        var score = 85;
+        if (score >= 80) {
+            console.log("Excellent");
+        } else if (score >= 50) {
+            console.log("Passed");
+        } else {
+            console.log("Failed");
+        }
+
+    </script>
     <h1>JS Tutorial 2024 Paper</h1>
     <p>Answer the following questions:</p>
     <ol>
         <li>
-            <div>Create two new variables, x and y. Initialize x with the value 5 and y with the value 10. Then mutate (change) the value of y by assigning a new value, 20, and print both x and y to the console.
-                <pre>
-            <code>
-                var a = 10;
-                var b = 20;
-                var c = a + b;
-                console.log(c);
+            <div>Create two new variables, x and y. Initialize x with the value 5 and y with the value 10. Then mutate (change) the value of y by assigning a new value, 20, and print both x and y to the console.</div>
+            <pre><code>
+                var x = 5;    // Declare and initialize x
+                var y = 10;   // Declare and initialize y
+                // Mutate the value of y
+                y = 20;
+                console.log("x:", x);  // Output x
+                console.log("y:", y);  // Output mutated y
             </code></pre>
-                </pre>
-            </div>
-        <li>What is the output of the following code?</li>
-        <pre>
-            <code>
-                var a = 10;
-                var b = 20;
-                var c = a + b;
-                console.log(c);
-            </code>
-        </pre>
-        <li>What is the output of the following code?</li>
-        <pre>
-            <code>
-                var a = 10;
-                var b = 20;
-                var c = a + b;
-                console.log(c);
-            </code>
-        </pre>
     </ol>
 
 </html>
